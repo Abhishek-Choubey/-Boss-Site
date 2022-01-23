@@ -1,0 +1,49 @@
+body{
+    font-family: system-ui;
+    background-color: rgb(228, 37, 37);
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.container{
+    height: auto;
+    width: 100%;   
+    padding-bottom : 50px;
+    display: flex;
+}
+.dishes{
+    display: grid;
+    grid-template-columns: repeat(2, 320px);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    text-align: center;
+    margin-left: 30px;
+    width: 80%;
+    color: grey;
+    font-weight: 700;
+}
+.mealCard{
+    background-color: white;
+    border-radius: 10px;
+    width: 280px;
+    height: 420px;
+}
+.dish-img{
+    height: 280px;
+    width: 280px;
+    border-radius: 10px;
+}
+button{
+    font-weight: 700;
+    color: rgb(115, 115, 115);
+    border: 2px solid rgb(138, 138, 138);
+    height: 30px;
+    border-radius: 5px;
+
+}
+#cart-btn{
+    border: none;
+    background-color: transparent;
+    
+}
