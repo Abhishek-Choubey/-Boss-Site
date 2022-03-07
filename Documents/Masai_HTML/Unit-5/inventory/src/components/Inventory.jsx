@@ -1,17 +1,18 @@
 import { useState } from "react"
-
+import "../styles/Inventory.css"
 export function Inventory() {
     const [book, setBooks] = useState(1);
     const [pen, setPens] = useState(1);
     const [notebook, setNotebooks] = useState(1);
     const [inkpen, setInkpens] = useState(1);
+    const [total, setTotal] = useState(book+pen+notebook+inkpen);
     return <>
     {/* This is parent div */}
         <div>
             {/* child div 1 */}
             <div className="items">
                 <span>Books:</span>
-                <button className="addBook" onClick={()=> setBooks(book+1)}>
+                <button className="addBook" onClick={()=> setBooks(book+1) }  >
                     +
                 </button>
                 <button className="remBook" onClick={()=> setBooks(book-1)}>
@@ -52,6 +53,7 @@ export function Inventory() {
                 </button>
                 <span className="totalInkpens">{inkpen}</span>
             </div>
+            <div className="total">{total}</div>
         </div>
     </>
 }

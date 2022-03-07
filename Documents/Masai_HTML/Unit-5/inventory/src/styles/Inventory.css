@@ -1,0 +1,10 @@
+.items{
+    margin : 5px
+}
+.item > span, button{
+    margin: 10px ;
+}
+button{
+    border: none;
+    font-weight: 600;
+}
