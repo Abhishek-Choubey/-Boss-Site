@@ -9,9 +9,6 @@ export const Rentals = (props) => {
     getData()
   }, [])
   const [datas, setDatas] = useState([]);
-  useEffect(()=>{
-    getData()
-  }, [])
   function getData() {
     axios.get("http://localhost:8080/houses").then((res) => {
       setDatas(res.data);

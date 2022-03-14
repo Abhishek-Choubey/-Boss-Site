@@ -1,5 +1,5 @@
 import  axios  from 'axios';
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export const AddHouse = (props) => {
   const [formData, setFormdata] = useState({
@@ -12,19 +12,17 @@ export const AddHouse = (props) => {
     married: "",
     image: "",
   });
-  
 
   function handleChange(e) {
     const { className, value } = e.target;
     setFormdata({...formData, [className]: value })
-  }
-  
-
+  }  
+  const getData = props.getData;
   function handleSubmit(e) {
     e.preventDefault();
     axios.post("http://localhost:8080/houses", formData).then(() => {
       alert("House added");
-      props.getData();
+      getData()
       setFormdata({
         name: "",
         ownerName: "",
@@ -34,11 +32,9 @@ export const AddHouse = (props) => {
         bachelor: "",
         married: "",
         image: "",
-
       })
     })
-
-  }
+  }  
   return (
     <div className="addHouseContainer">
       <form onSubmit={handleSubmit}>
