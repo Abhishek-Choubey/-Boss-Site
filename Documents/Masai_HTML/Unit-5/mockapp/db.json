@@ -10,6 +10,17 @@
       "married": "",
       "image": "3409234",
       "id": 1
+    },
+    {
+      "name": "nothing",
+      "ownerName": "nothing",
+      "address": "nothing",
+      "areaCode": "nothing",
+      "rent": "45245",
+      "bachelor": "on",
+      "married": "",
+      "image": "nothing.jpg",
+      "id": 2
     }
   ]
 }
