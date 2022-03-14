@@ -1,7 +1,7 @@
-import { axios } from 'axios';
-import { useEffect, useState } from "react";
+import  axios  from 'axios';
+import { useState } from "react";
 
-export const AddHouse = () => {
+export const AddHouse = (props) => {
   const [formData, setFormdata] = useState({
     name: "",
     ownerName: "",
@@ -11,32 +11,20 @@ export const AddHouse = () => {
     bachelor: "",
     married: "",
     image: "",
-
   });
-  const [datas, setDatas] = useState([]);
+  
 
   function handleChange(e) {
     const { className, value } = e.target;
     setFormdata({...formData, [className]: value })
   }
-  console.log("form",formData)
+  
 
-  // useEffect(() => {
-  //   getData()
-   
-  // }, [])
-
-  function getData() {
-    axios.get("http://localhost:8080/houses").then((res) => {
-      setDatas(res.data);
-    })
-  }
   function handleSubmit(e) {
     e.preventDefault();
     axios.post("http://localhost:8080/houses", formData).then(() => {
       alert("House added");
-      getData()      
-
+      props.getData();
       setFormdata({
         name: "",
         ownerName: "",

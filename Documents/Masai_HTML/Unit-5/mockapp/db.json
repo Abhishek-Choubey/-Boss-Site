@@ -1,5 +1,15 @@
 {
-    "houses" : [
-
-    ]
+  "houses": [
+    {
+      "name": "iqrpiqr",
+      "ownerName": "34;oi13",
+      "address": "3c4;13",
+      "areaCode": "3;o4j31l",
+      "rent": "32423",
+      "bachelor": "on",
+      "married": "",
+      "image": "3409234",
+      "id": 1
+    }
+  ]
 }
