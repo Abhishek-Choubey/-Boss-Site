@@ -1,37 +1,115 @@
 {
   "houses": [
     {
-      "name": "iqrpiqr",
-      "ownerName": "34;oi13",
-      "address": "3c4;13",
-      "areaCode": "3;o4j31l",
-      "rent": "32423",
-      "bachelor": "on",
-      "married": "",
-      "image": "3409234",
+      "name": "Kaia Bridgeland",
+      "ownerName": "Kaia",
+      "address": "60 Vera Lane",
+      "areaCode": "433782",
+      "rent": 1678,
+      "tenants": "married",
+      "img": "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
       "id": 1
     },
     {
-      "name": "nothing",
-      "ownerName": "nothing",
-      "address": "nothing",
-      "areaCode": "nothing",
-      "rent": "45245",
-      "bachelor": "on",
-      "married": "",
-      "image": "nothing.jpg",
+      "name": "Dalli Curreen",
+      "ownerName": "Dalli",
+      "address": "53 Atwood Lane",
+      "areaCode": "53401",
+      "rent": 2975,
+      "tenants": "married",
+      "img": "https://images.unsplash.com/photo-1560184897-ae75f418493e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
       "id": 2
     },
     {
-      "name": "eqlrijqelr",
-      "ownerName": "qeriqe;rkq",
-      "address": "eroqeklr,",
-      "areaCode": "qwrokqw;rlk",
-      "rent": "3423234",
+      "name": "Winfield Assandri",
+      "ownerName": "Winfield",
+      "address": "565 Springview Place",
+      "areaCode": "53402",
+      "rent": 2706,
+      "tenants": "un-married",
+      "img": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "id": 3
+    },
+    {
+      "name": "Terence Snelgar",
+      "ownerName": "Terence",
+      "address": "654 South Lane",
+      "areaCode": "53403",
+      "rent": 2971,
+      "tenants": "married",
+      "img": "https://images.unsplash.com/photo-1448630360428-65456885c650?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "id": 4
+    },
+    {
+      "name": "Edith O'Looney",
+      "ownerName": "Edith",
+      "address": "4251 Crest Line Terrace",
+      "areaCode": "26620",
+      "rent": 2324,
+      "tenants": "un-married",
+      "img": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cmVhbCUyMGVzdGF0ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "id": 5
+    },
+    {
+      "name": "Petronella Turrell",
+      "ownerName": "Petronella",
+      "address": "43 Superior Park",
+      "areaCode": "26620",
+      "rent": 4419,
+      "tenants": "un-married",
+      "img": "https://images.unsplash.com/photo-1599809275671-b5942cabc7a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVhbCUyMGVzdGF0ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "id": 6
+    },
+    {
+      "name": "Tamma Minguet",
+      "ownerName": "Tamma",
+      "address": "57464 Iowa Pass",
+      "areaCode": "27197-000",
+      "rent": 1056,
+      "tenants": "un-married",
+      "img": "https://media.istockphoto.com/photos/real-estate-house-insurance-domino-chain-challenge-picture-id1341380752?b=1&k=20&m=1341380752&s=170667a&w=0&h=BTVVzn3OHkm6yY5RW7H9iqnrjmnQa5Chzk4BI-_8I8g=",
+      "id": 7
+    },
+    {
+      "name": "Emilee Ferenczi",
+      "ownerName": "Emilee",
+      "address": "485 Scofield Pass",
+      "areaCode": "7309",
+      "rent": 2833,
+      "tenants": "un-married",
+      "img": "https://media.istockphoto.com/photos/estate-agent-showround-picture-id1326353127?b=1&k=20&m=1326353127&s=170667a&w=0&h=U133nysVsV_ouGhH61iZAnuaa3bivWUGsjs8q8u-JJo=",
+      "id": 8
+    },
+    {
+      "name": "Fran Letherbury",
+      "ownerName": "Fran",
+      "address": "51994 Holy Cross Terrace",
+      "areaCode": "26622",
+      "rent": 1469,
+      "tenants": "married",
+      "img": "https://media.istockphoto.com/photos/modern-luxury-holiday-villa-at-seaside-picture-id1321598038?b=1&k=20&m=1321598038&s=170667a&w=0&h=0i12s0jocHyF_uhxNV1-YILEYZt00wMnMreFnt_I6vA=",
+      "id": 9
+    },
+    {
+      "name": "Marty Spacey",
+      "ownerName": "Marty",
+      "address": "17 Oxford Road",
+      "areaCode": "445342",
+      "rent": 1834,
+      "tenants": "married",
+      "img": "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "id": 10
+    },
+    {
+      "name": "Abhishek",
+      "ownerName": "Shubham",
+      "address": "Delhi",
+      "areaCode": "239434",
+      "rent": "984334",
       "bachelor": "on",
       "married": "",
-      "image": "nothinePrlqer,",
-      "id": 3
+      "image": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "id": 11
     }
   ]
 }
